@@ -1,0 +1,34 @@
+body {
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+h3 {
+    margin: auto;
+    width: fit-content;
+    position: relative;
+    top: 2vh;
+    background-color: goldenrod;
+}
+
+.info {
+    border: 3px outset rebeccapurple;
+    border-right: 3px solid grey;
+    border-bottom: 3px solid grey;
+    border-style: outset;
+    border-top: 2px outset;
+    padding: 10px;
+}
+
+.p1 {
+    display: inline-block;
+    width: 46vw;
+    margin-right: 1vw;
+    border-right: 2px solid grey;
+}
+
+.p2 {
+    display: inline-block;
+    width: 45vw;
+    margin-left: 1vw;
+}
