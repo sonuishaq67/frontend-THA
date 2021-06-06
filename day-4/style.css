@@ -1,0 +1,31 @@
+.circle {
+    margin: auto;
+    border-radius: 50%;
+    border: 40px solid rebeccapurple;
+    width: 355px;
+    height: 355px;
+}
+
+.hour-hand {
+    background-color: black;
+    width: 145px;
+    height: 4px;
+    transform-origin: left;
+    transform: translate(170px, 170px) rotate(150deg);
+}
+
+.min-hand {
+    background-color: black;
+    width: 155px;
+    height: 3px;
+    transform-origin: left;
+    transform: translate(170px, 170px) rotate(45deg);
+}
+
+.second-hand {
+    background-color: black;
+    width: 175px;
+    height: 2.5px;
+    transform-origin: left;
+    transform: translate(170px, 165px) rotate(290deg);
+}
