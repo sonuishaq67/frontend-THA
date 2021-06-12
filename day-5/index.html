@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <script src="script.js"></script>
+
+    <body>
+        <div id="firstdiv">
+            <h2>Calculator</h2>
+            <br />
+            <form id="firstform">
+                <label for="first">First Number</label>
+                <input type="number" id="fnum" name="first" /><br /><br />
+                <label for="last">Second Number:</label>
+                <input type="number" id="lnum" name="last" /><br /><br />
+            </form>
+            <button type="button" value="+" placehol onclick="add()">+</button>
+            <button type="button" value="-" onclick="sub()">-</button>
+            <button type="button" value="/" onclick="divide()">/</button>
+            <button type="button" value="*" onclick="multiply()">*</button>
+            <button type="button" onclick="reset()">RESET</button>
+            <span>
+            <p>Value:</p>
+            <p id="val">null</p>
+          </span>
+        </div>
+    </body>
+    <style>
+        #firstdiv {
+            text-align: center;
+        }
+        
+        button {
+            border: none;
+            color: rebeccapurple;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #3e8e41
+        }
+        
+        button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+
+</html>
